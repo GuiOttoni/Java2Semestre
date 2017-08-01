@@ -15,3 +15,17 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-08-01 19:45:33.269
 !MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.etools.javaee.core.
+
+!ENTRY org.jboss.tools.central 4 0 2017-08-01 20:17:01.439
+!MESSAGE Current Eclipse instance does not support software installation.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Current Eclipse instance does not support software installation.
+	at org.jboss.tools.central.installation.InstallationChecker.<init>(InstallationChecker.java:76)
+	at org.jboss.tools.central.installation.InstallationChecker.getInstance(InstallationChecker.java:84)
+	at org.jboss.tools.central.editors.GettingStartedHtmlPage$6.run(GettingStartedHtmlPage.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.core 4 0 2017-08-01 20:17:01.440
+!MESSAGE Current Eclipse instance does not support software installation.
+
+!ENTRY org.eclipse.jdt.core 4 0 2017-08-01 20:29:11.704
+!MESSAGE Invalid ZIP archive: D:\Workspace\ojdbc6.jar
